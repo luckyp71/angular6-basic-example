@@ -1,0 +1,18 @@
+<div *ngIf="customer">
+    <div>
+      <label>ID: 
+        <input [(ngModel)]="customer.id" placeholder="ID"/>
+      </label>
+    </div>
+    <div>
+      <label>Name: 
+        <input [(ngModel)]="customer.name" placeholder="Name"/>
+      </label>
+    </div>
+    <div>
+      <label>Age: 
+        <input [(ngModel)]="customer.age" placeholder="Age"/>
+      </label>
+    </div>
+    <button (click)="back()">Back</button>
+  </div>
